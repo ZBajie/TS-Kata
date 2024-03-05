@@ -1,7 +1,9 @@
+import Addition from "./components/Addition/Addition"
 import ChangeText from "./components/ChangeText/ChangeText"
 import Counter from "./components/Counter/Counter"
 import Header from "./components/Header/Header"
 import TextToAlert from "./components/TextToAlert/TextToAlert"
+import Vehicle from "./components/Vehicle/Vehicle"
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Counter />
       <TextToAlert />
       <ChangeText />
+      <Addition />
+      <Vehicle />
     </>
   )
 }

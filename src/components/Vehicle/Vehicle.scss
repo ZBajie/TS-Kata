@@ -1,0 +1,16 @@
+.vehicle-section {
+  background-color: blue;
+  color: cyan;
+  width: fit-content;
+  padding: 1rem;
+  h3 {
+    text-align: center;
+  }
+  article {
+    margin: 0.5rem;
+    padding: 1rem;
+    border: 10px solid palegreen;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px cyan;
+  }
+}
