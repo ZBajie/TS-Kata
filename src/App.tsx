@@ -1,5 +1,6 @@
 import Addition from "./components/Addition/Addition"
 import ChangeText from "./components/ChangeText/ChangeText"
+import ColorBox from "./components/ColorBox/ColorBox"
 import Counter from "./components/Counter/Counter"
 import Header from "./components/Header/Header"
 import TextToAlert from "./components/TextToAlert/TextToAlert"
@@ -16,6 +17,7 @@ function App() {
       <ChangeText />
       <Addition />
       <Vehicle />
+      <ColorBox />
     </>
   )
 }
