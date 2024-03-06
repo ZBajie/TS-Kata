@@ -7,14 +7,23 @@ function Addition() {
   const [numberSum, setNumberSum] = useState(0)
 
   const onClick = () => {
-    if (firstNumber.current && secondNumber.current) {
-      setNumberSum(
-        parseInt(firstNumber.current.value, 10) +
-          parseInt(secondNumber.current.value, 10)
-      )
+    if (firstNumber.current?.value && secondNumber.current?.value) {
+      const numberOne = parseInt(firstNumber.current.value, 10)
+      const numberTwo = parseInt(secondNumber.current.value, 10)
+
+      setNumberSum(numberOne + numberTwo)
+
       firstNumber.current.value = "null"
       secondNumber.current.value = "null"
       firstNumber.current.focus()
+    } else {
+      alert("Please enter numbers in both fields")
+      if (firstNumber.current && secondNumber.current) {
+        firstNumber.current.value = "null"
+        secondNumber.current.value = "null"
+        firstNumber.current.focus()
+        setNumberSum(0)
+      }
     }
   }
 
