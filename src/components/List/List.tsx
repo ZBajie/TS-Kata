@@ -33,6 +33,7 @@ function List() {
   }
   return (
     <section className="section-list">
+      <h2>List</h2>
       <input type="text" ref={listText} />
       <select name="" id="" ref={animal}>
         <option value="">Select animal</option>
