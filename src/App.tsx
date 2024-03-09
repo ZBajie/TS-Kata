@@ -8,6 +8,7 @@ import Header from "./components/Header/Header"
 import List from "./components/List/List"
 import PizzaCalculator from "./components/PizzaCalculator/PizzaCalculator"
 import Stringer from "./components/Stringer/Stringer"
+import StringerKata from "./components/StringerKata/StringerKata"
 import TextToAlert from "./components/TextToAlert/TextToAlert"
 import Vehicle from "./components/Vehicle/Vehicle"
 
@@ -17,6 +18,7 @@ function App() {
       <Header title="Hello world!" level={12}>
         child <p>test</p>
       </Header>
+      <StringerKata />
       <Stringer />
       <CounterKata />
       <CounterReducer />
